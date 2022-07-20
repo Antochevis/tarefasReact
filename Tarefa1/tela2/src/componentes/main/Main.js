@@ -1,0 +1,15 @@
+import './Main.css'
+
+const Main = () => {
+  return (
+    <div className='containerMain'>
+      <h2>Sobre a DBC</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/h9HiHkEar-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ratione rem modi tenetur nihil non enim, blanditiis cupiditate aut suscipit natus illo dolore, aliquid error facere vel excepturi est? Maxime, autem doloremque. Veritatis doloribus ipsa porro est quam et molestiae cumque perspiciatis delectus odio magnam accusantium repellendus, dolore culpa veniam aliquam facere, laboriosam in neque sit. Officiis molestias deleniti quidem rem placeat suscipit nulla doloremque impedit id modi. Autem nisi architecto modi facere tempore illo distinctio sed itaque fugiat ducimus eaque dolorem ratione deleniti omnis, dolorum, ipsa illum fuga cum vero corporis asperiores? Esse culpa explicabo, repellat numquam, itaque earum totam pariatur autem minus cum modi facilis. Hic dolore earum harum suscipit non veritatis molestias numquam. Rem eaque expedita non ea esse tempora quia, placeat possimus doloremque libero aspernatur quos laborum ullam, iure nemo. Odio aspernatur, ut eaque vitae tenetur porro ea asperiores explicabo voluptatibus sed possimus incidunt fugiat. Commodi dolor architecto, ratione cum omnis odit, perferendis, praesentium necessitatibus alias officiis expedita debitis velit? Eligendi repudiandae distinctio debitis consequatur animi repellat nulla voluptatibus tempore reprehenderit vero et fuga enim libero nobis est ex, ut asperiores praesentium quisquam placeat. Porro dolore eligendi error qui cumque animi molestias modi minus rem officia! <br /><br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet ea earum error iure accusamus soluta, repellendus dolor id nisi iste, dolorum nam ipsum unde illum corrupti deleniti libero aperiam repudiandae odit maxime velit. Ex praesentium iure iusto quia qui libero aperiam unde officia ratione sed veritatis alias tenetur fuga est voluptas, vel consectetur assumenda soluta quam quae nam. Expedita accusantium, exercitationem non sequi vitae beatae labore, blanditiis perspiciatis impedit totam quia quod saepe quasi animi quisquam delectus nostrum, natus eius cum! Laborum aliquid nulla ipsum libero doloribus ducimus a officia amet totam impedit? Nostrum blanditiis deleniti pariatur minus veniam saepe non sequi! Vitae quia libero veniam quibusdam, reprehenderit optio, excepturi natus eos voluptatem maxime error corrupti officia incidunt distinctio cumque. Doloribus ipsa mollitia hic excepturi quas facilis impedit doloremque saepe similique ea. Non, error debitis! Et, fuga eos voluptas quia quisquam nostrum suscipit, recusandae delectus distinctio veritatis iusto. Accusamus!</p>
+    </div>
+  )
+}
+
+
+export default Main;

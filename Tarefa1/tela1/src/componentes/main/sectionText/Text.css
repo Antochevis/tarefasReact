@@ -1,0 +1,14 @@
+.containerText {
+  background-color: rgb(48, 48, 48);
+}
+
+.containerText > div {
+  width: 1280px;
+  margin: auto;
+  padding: 20px;
+}
+
+.containerText > div > p {
+  text-align: justify;
+  color: white;
+}
