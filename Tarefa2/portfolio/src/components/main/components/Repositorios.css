@@ -1,0 +1,25 @@
+.repositorios {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.repositorios > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.repositorios > ul > li > a:hover {
+  color: rgb(44, 44, 44);
+}
+
+.repositorios > ul > li {
+  list-style-type: none;
+}
+
+.repositorios > ul {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  margin: auto;
+}

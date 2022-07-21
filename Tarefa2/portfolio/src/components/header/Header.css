@@ -1,0 +1,43 @@
+.container {
+  background-color: rgb(44, 44, 44);
+}
+
+.header {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.profileImage:hover{
+  opacity: 70%;
+  transition: 0.2s;
+}
+
+.infosNome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.infosNome > a {
+  color: white;
+  text-decoration: none;
+}
+
+.infosNome > a:hover {
+  color: rgb(92, 92, 92);
+}
+
+.infosNome > h3, h2, h1 {
+  margin: 10px;
+}

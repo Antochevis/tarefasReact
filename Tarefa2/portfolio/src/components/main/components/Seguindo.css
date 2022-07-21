@@ -1,0 +1,40 @@
+.seguindo {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 440px;
+}
+
+.listaSeguindo > li {
+  list-style-type: none;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  width: 200px;
+}
+
+.listaSeguindo > li > img {
+  width: 75px;
+  border-radius: 100px;
+}
+
+.listaSeguindo > li > a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.listaSeguindo > li > a:hover {
+  color: rgb(44, 44, 44);
+}
+
+.seguindo > h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.listaSeguindo {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
