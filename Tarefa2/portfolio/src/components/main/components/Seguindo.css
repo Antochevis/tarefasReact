@@ -12,14 +12,25 @@
   width: 200px;
 }
 
-.listaSeguindo > li > img {
+.listaSeguindo > li > a > img {
   width: 75px;
   border-radius: 100px;
+}
+
+
+.listaSeguindo > li > a > img:hover {
+  opacity: 70%;
+  transition: 0.2s;
 }
 
 .listaSeguindo > li > a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.listaSeguindo > li > a > h4 {
   margin-left: 10px;
 }
 

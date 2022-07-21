@@ -6,14 +6,24 @@
   width: 200px;
 }
 
-.listaSeguidores > li > img {
+.listaSeguidores > li > a > img {
   width: 75px;
   border-radius: 100px;
+}
+
+.listaSeguidores > li > a > img:hover {
+  opacity: 70%;
+  transition: 0.2s;
 }
 
 .listaSeguidores > li > a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.listaSeguidores > li > a > h4 {
   margin-left: 10px;
 }
 

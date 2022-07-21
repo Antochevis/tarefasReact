@@ -27,8 +27,8 @@ function Seguindo() {
         {val.map(seguindo => {
           return (
             <li>
-              <img src={seguindo.avatar_url} alt="" />
-              <a href={seguindo.html_url}><h4>{seguindo.login}</h4></a>
+              <a href={seguindo.html_url}><img src={seguindo.avatar_url} alt="" />
+              <h4>{seguindo.login}</h4></a>
             </li>
           )
         })}

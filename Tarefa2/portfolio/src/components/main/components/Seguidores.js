@@ -27,8 +27,8 @@ function Seguidores() {
         {val.map(seguidor => {
           return (
             <li>
-              <img src={seguidor.avatar_url} alt="" />
-              <a href={seguidor.html_url}><h4>{seguidor.login}</h4></a>
+              <a href={seguidor.html_url}><img src={seguidor.avatar_url} alt="" />
+              <h4>{seguidor.login}</h4></a>
             </li>
           )
         })}
